@@ -16,14 +16,14 @@ time.sleep(2)  # Aguarda a página carregar
 # 🧠 Encontra o campo de busca e digita "Messi"
 try:
     campo_pesquisa = driver.find_element(By.CLASS_NAME, "gLFyf")
-    campo_pesquisa.send_keys("Messi")
+    campo_pesquisa.send_keys("Messi Skills")
     campo_pesquisa.send_keys(Keys.RETURN)  # Pressiona Enter
     print("✅ Pesquisa realizada com sucesso!")
 except Exception as e:
     print(f"❌ Erro: {e}")
 
 # Aguarda um pouco para ver o resultado
-time.sleep(5)
+time.sleep(9)
 
 # Encerra o navegador
 driver.quit()
