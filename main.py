@@ -18,12 +18,12 @@ try:
     campo_pesquisa = driver.find_element(By.CLASS_NAME, "gLFyf")
     campo_pesquisa.send_keys("Messi Best Skills")
     campo_pesquisa.send_keys(Keys.RETURN)  # Pressiona Enter
-    print("✅ Pesquisa realizada com sucesso!")
+    print("✅ Pesquisa realizada com sucesso!!!")
 except Exception as e:
     print(f"❌ Erro: {e}")
 
 # Aguarda um pouco para ver o resultado
-time.sleep(9)
+time.sleep(10)
 
 # Encerra o navegador
 driver.quit()
